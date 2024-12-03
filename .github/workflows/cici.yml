@@ -33,4 +33,4 @@ jobs:
         with:
           app-name: appinfra
           publish-profile: ${{ secrets.AZURE_PUBLISH_PROFILE }}
-          images: <tu-registro>.azurecr.io/imagen:v3
+          images: contenedorinfra.azurecr.io/imagen:v3
